@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tim's Graphics | Creative Printing & Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: url('your-banner.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #eee;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 30px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .whatsapp-btn a {
+      color: white;
+      display: block;
+      line-height: 60px;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src= alt="Tim's Graphics Logo">
+  <h2>Tim's Graphics</h2>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Services</a>
+  <a href="#">Gallery</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>Print with Purpose</h1>
+  <p>From mugs to banners, we bring your vision to life.</p>
+</div>
+
+<section>
+  <h2 style="text-align:center;">Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Mug Printing</h3>
+      <p>Custom-designed mugs perfect for gifts and branding.</p>
+    </div>
+    <div class="card">
+      <h3>T-Shirt Printing</h3>
+      <p>Personalized and bulk T-shirt printing with vibrant colors.</p>
+    </div>
+    <div class="card">
+      <h3>Banners & Posters</h3>
+      <p>Big, bold, and beautiful prints to make your message stand out.</p>
+    </div>
+    <div class="card">
+      <h3>Graphic Design</h3>
+      <p>Logos, flyers, business cards, and more – designed just for you.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 style="text-align:center;">Gallery</h2>
+  <div class="gallery">
+    <img src="work1.jpg" alt="Sample Work 1">
+    <img src="work2.jpg" alt="Sample Work 2">
+    <img src="work3.jpg" alt="Sample Work 3">
+    <img src="work4.jpg" alt="Sample Work 4">
+  </div>
+</section>
+
+<!-- WhatsApp Floating Button -->
+<div class="whatsapp-btn">
+  <a href="https://wa.me/254112111942" target="_blank">💬</a>
+</div>
+
+<footer>
+  <p>&copy; 2025 Tim's Graphics. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
